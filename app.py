@@ -135,3 +135,5 @@ def get_random_songs(sp, artist_name, limit=10):
     track_results = [(track['name'], track['uri']) for track in random_tracks]
     return track_results
 
+if __name__ == '__main__':
+    app.run(debug=True)
